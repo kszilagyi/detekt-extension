@@ -7,7 +7,6 @@ import io.gitlab.arturbosch.detekt.api.RuleSetProvider
 
 
 class KszilagyiDetektRuleProvider : RuleSetProvider {
-
 	override val ruleSetId: String = "kszilagyi-extensions"
 
 	override fun instance(config: Config): RuleSet {
